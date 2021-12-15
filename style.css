@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+  }
+  body, html {
+    width: 80%;
+  }
+  canvas {
+    display: block;
+    background: radial-gradient(at top, #FEFFFF, #000000);
+  }
+  .name{
+      font-size: 70px;
+      text-align:center;
+      color:red;
+      font-weight:bold;
+      width: 100%;
+      font-family: serif;
+      background-color: black;
+  }
+  .wrap {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    min-width: 350px;
+  }
+  .btn {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: rgb(253, 0, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .btn--start {
+    top: 10%;
+    font-family: serif;
+    font-weight: bold;
+  }
+  
+  .cash, .bet {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    right: 5%;
+    padding: 1% 4%;
+    display: flex;
+    font: 24px monospace;
+    color: rgb(255, 0, 0);
+    background: #000;
+    border-radius: .125rem;
+  }
+  .bet {
+    bottom: 2%;
+  }
+  
+  .valute {
+    margin-left: auto;
+    margin-right: 0.25rem;
+    color: rgb(255, 0, 0);
+    font-family: serif;
+  }
